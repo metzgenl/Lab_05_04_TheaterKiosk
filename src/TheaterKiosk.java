@@ -14,7 +14,7 @@ public class TheaterKiosk {
             userAge = in.nextInt();
             in.nextLine();
 
-            // Calculate the Shipping Price and Total Price
+            // Check for userAge
             if (userAge >= kioskAge){
                 System.out.println("You get a wrist band!");
             }
